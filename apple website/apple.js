@@ -40,23 +40,6 @@ tl.from("#page1 span",{
   stagger:0.14
 })
 
-// function page2Animation(){
-//   gsap.from("#page2-contents nav h1",{
-//     y:100,
-//     stagger:0.2,
-//     duration:5,
-//     scrollTriger:{
-//       trigger:"#page2",
-//       scroller:"#main",
-//       start:"top 47%",
-//       end:"top 46%",
-//       // markers:true,
-//       scrub:2
-//     }
-//   })
-// }
-// page2Animation()
-
 tl.from("#page2-contents h1 span",{
   y:20,
   opacity:0,
@@ -87,4 +70,29 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// function page4Animation(){
+//   gsap.from("#page4-contents h1 span",{
+//     y:100,
+//     stagger:0.2,
+//     duration:1,
+//     scrollTriger:{
+//       trigger:"#page4",
+//       scroller:"#main",
+//       start:"top 30%",
+//       end:"top 46%",
+//       // markers:true,
+//       scrub:2
+//     }
+//   })
+// }
+// page4Animation()
+
+tl.from("#page4-contents h1 span",{
+  y:10,
+  opacity:0,
+  stagger:0.1,
+})
+
+
 
